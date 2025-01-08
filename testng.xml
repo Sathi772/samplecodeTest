@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="classes">
+  <test thread-count="2" name="Test" parallel="classes">
+       <groups>
+  <run>
+  <include name="e2e"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="basics.DataProviderr"/>
+      <class name="basics.AnnotedMethodss"/>
+      <class name="basics.Sample"/>
+      <class name="takescreenshots.DemoListener"/>
+      <class name="basics.Amz"/>
+      <class name="basics.Google"/>
+      <class name="basics.ExtendReportTestNG"/>
+      <class name="basics.Assertss"/>
+      <class name="takescreenshots.Checks"/>
+      <class name="basics.Blaze"/>
+      <class name="basics.DemoBalze"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

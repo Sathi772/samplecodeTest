@@ -1,0 +1,30 @@
+Testng:
+
+1.Annoted methods(@Test,before,after)
+2.define you execution(pririotizing,xml,grouping)
+3.skip,markers testaes
+4.dataprovider
+5.Spport parellel exceutions
+6.supports listeners
+7.Report generate
+
+
+depemdcies:
+selnium
+webdrivermanager 
+testng
+
+
+
+testng.xml------>
+
+  <parameter name="product" value="Sweatshirt" />
+  <parameter name="browser" value="edge" />
+  
+  
+   <groups>
+<run>
+<include name="smoke"/>
+</run>
+
+</groups>
